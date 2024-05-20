@@ -1,0 +1,86 @@
+
+body {
+  margin: 0;
+  background-image: url("https://i.pinimg.com/originals/41/0d/46/410d4685106b1093d1d297788a755984.jpg"); /* Replace "path/to/your/image.jpg" with the path to your image file */
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+}
+
+.nav-item {
+  margin-right: 1rem;
+}
+
+.nav-button { 
+    padding: 1rem 2rem;
+    background-color: transparent; 
+    border: 1px solid #fff; 
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
+.nav-button:hover { 
+    box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #007bff;
+    transition: 0.5s; 
+}
+.hero {
+  text-align: center;
+  padding-top: 6rem;
+  padding-bottom: 5rem;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 7rem;
+  margin-bottom: 4rem;
+  text-shadow: 0 0 0 rgba(255, 255, 255, 0.3); 
+}
+
+.hero h1:hover {
+    text-shadow: 0 0 5px rgba(255,255,255,0.8); 
+}
+
+.hero button {
+  padding: 1rem 2rem;
+  background-image: url("https://i.pinimg.com/originals/41/0d/46/410d4685106b1093d1d297788a755984.jpg"); 
+  mix-blend-mode: difference; 
+  color: #fff;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.footer {
+      text-align: center;
+      padding: 1rem;
+    }
+
+    .footer a {
+      display: inline-block;
+      margin: 0 1rem;
+      color: #fff;
+      font-size: 1.5rem;
+    }
+    .footer .debsoc-icon img {
+         margin-bottom: -0.3rem;
+         
+    }
+  .footer img {
+      width: 30px;
+      height: 30px;
+      
+    }
+   
